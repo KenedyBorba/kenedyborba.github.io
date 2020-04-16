@@ -28,28 +28,16 @@ main {
     display: inline-block
 }
 
+a:link{
+    text-decoration:none;
+}
+
 .primeiro1 {
-    cursor: pointer;
     display: inline-block;
     height: 182px;
 }
 
 .primeiro2 {
-    cursor: pointer;
-    display: inline-block;
-    border-top: 1px solid #cccccc;
-    height: 182px;
-}
-
-.primeiro3 {
-    cursor: pointer;
-    display: inline-block;
-    border-top: 1px solid #cccccc;
-    height: 182px;
-}
-
-.primeiro4 {
-    cursor: pointer;
     display: inline-block;
     border-top: 1px solid #cccccc;
     height: 182px;
@@ -81,30 +69,11 @@ nav {
     color: #a09fa0
 }
 
-.um {
+.imagens {
     width: 180px;
     float: right;
     margin: 30px 0px 10px 30px;
 }
-
-.dois {
-    width: 180px;
-    float: right;
-    margin: 30px 0px 10px 30px;
-}
-
-.tres {
-    width: 180px;
-    float: right;
-    margin: 30px 0px 10px 30px;
-}
-
-.quatro {
-    width: 180px;
-    float: right;
-    margin: 30px 0px 10px 30px;
-}
-
 
 .linhanomeio {
     position: absolute;
@@ -115,13 +84,12 @@ nav {
     margin-left: 782.5px
 }
 
-.baixo {
+aside {
     margin-top: -700px;
     text-decoration: none;
 }
 
 .segundo1 {
-    cursor: pointer;
     display: inline-block;
     position: relative;
     width: 450px;
@@ -131,7 +99,6 @@ nav {
 }
 
 .segundo2 {
-    cursor: pointer;
     display: inline-block;
     position: relative;
     width: 450px;
@@ -142,7 +109,6 @@ nav {
 }
 
 .segundo3 {
-    cursor: pointer;
     display: inline-block;
     position: relative;
     width: 450px;
@@ -153,7 +119,6 @@ nav {
 }
 
 .segundo4 {
-    cursor: pointer;
     display: inline-block;
     position: relative;
     width: 450px;
