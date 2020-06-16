@@ -17,4 +17,3 @@ function verificaMaior() {
     document.getElementById("result").innerHTML = ' Maior idade digitada foi de ' + maior + ' e a menor idade digitada foi de ' + menor;
 
 }
-//10,12,18,20,
