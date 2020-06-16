@@ -1,23 +1,20 @@
 function descobrir() {
-    var a = document.getElementById("a").value;
-    var b = document.getElementById("b").value;
-    var c = document.getElementById("c").value;
- 
-    if (parseInt(a) + parseInt(b) >= parseInt(c) && a + c >= b && b + c >= a)
-    {
-    if (a == b && b == c && c == a){
-        var resultado = ("Triângulo Equilatero");
-        }
-    else if (a == b || b == c || c == a){
-        var resultado = ("Triângulo Isosceles");
-        }
-    else if (a != b && b != c && c != a){
-        var resultado = ("Triângulo Escaleno");
-        }
+    var energia = document.getElementById("resultado");
+    var quant = parseInt(document.getElementById("quant").value);
+    var uni = parseInt(document.getElementById("uni").value);
+
+    var valor = quant * uni;
+    if (quant <= 100) {
+        energia.value = valor;
+        return;
     }
-    else {
-        var resultado = ("Valores inválidos");
-        }
-    
-    document.triangulo.resultado.value = resultado;
- }
+
+    if (quant > 100 && quant < 200) {
+        energia.value = valor + (valor * 0.25);
+        return;
+    }
+    if (quant > 200) {
+        energia.value = valor + (valor * 0.5);
+        return;
+    }
+}
