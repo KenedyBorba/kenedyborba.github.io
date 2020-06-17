@@ -10,5 +10,5 @@ function verificaMaior() {
             maior = parseInt(num[i])
     }
 
-    document.getElementById("result").innerHTML = maior;
+    document.getElementById("result").innerHTMLF = maior;
 }
