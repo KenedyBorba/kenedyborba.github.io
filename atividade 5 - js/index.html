@@ -15,7 +15,14 @@
     <form>
         <fieldset>
             <legend class="titulo form-group col-7">IMC</legend>
-
+            <div class="form-group col-5">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" name="nome" id="nome" />
+            </div>
+            <div class="form-group col-5">
+                <label for="sexo">Sexo</label>
+                <input type="text" class="form-control" name="sexo" id="sexo" />
+            </div>
             <div class="form-group col-5">
                 <label for="peso">Peso</label>
                 <input type="text" class="form-control" name="peso" id="peso" />
@@ -29,7 +36,8 @@
                 <input type="button" onclick="VerificarImc()" value="Descobrir">
             </div>
             <div class="form-group col-5">
-                <p id="result"></p>
+
+                <p id="result"></p> 
             </div>
         </fieldset>
     </form>
