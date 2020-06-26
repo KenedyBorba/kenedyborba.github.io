@@ -27,8 +27,23 @@ body{
     height: 400px;
 }
 
+.esp1 {
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+.esp1 > h1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.esp1 > p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .esp {
-    margin-left: 25%;
+    margin: 0 5% 0 5%;
     font-size: 18px;
 }
 
