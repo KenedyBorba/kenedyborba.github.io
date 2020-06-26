@@ -1,0 +1,41 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d46401;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.navbar {
+    background-color: #df0932;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    object-position: 0 10%;
+    height: 400px;
+}
+
+.imagem-carrossel-5 {
+    object-fit: cover;
+    object-position: 0 40%;
+    height: 400px;
+}
+
+.esp {
+    margin-left: 25%;
+    font-size: 18px;
+}
+
+.titulo {
+    font-size: 32px;
+}
+
+.cor-rodape {
+    background-color: #df0932;
+}
