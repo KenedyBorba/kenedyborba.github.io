@@ -49,7 +49,7 @@
             avaliações e assim trazer uma nota final para o filme.</p>
     </div>
 
-    <form onsubmit="return Verificar()">
+    <form>
         <fieldset class="esp">
             <legend class="titulo form-group col pt-3">Cenas do filme</legend>
             <div class="form-group col">
@@ -59,7 +59,7 @@
                     do personagem, que não conta com a benevolência das pessoas ao redor. Isso pesa no desenvolvimento
                     do personagem até ele passar por todo o seu arco no roteiro e se transformar no icônico
                     vilão.</label>
-                <input type="text" required class="form-control" name="nota1" id="nota1" placeholder="Nota 1" />
+                <input type="number" required class="form-control" name="nota1" id="nota1" placeholder="Nota 1" />
             </div>
             <div class="form-group col pt-3">
                 <label for="nota2">Cena 2 - Em dado momento, Arthur aguarda por Sophie (Zazie Beetz) no apartamento da
@@ -68,7 +68,7 @@
                     e ficam confusos com o desconhecimento dela em relação ao protagonista. Descobrimos que na verdade
                     era tudo uma fantasia do personagem principal. Os dois nunca tiveram de fato uma parceria e tudo
                     visto em tela até aquela ocasião foi um trabalho da mente de Arthur.</label>
-                <input type="text" required class="form-control" name="nota2" id="nota2" placeholder="Nota 2" />
+                <input type="number" required class="form-control" name="nota2" id="nota2" placeholder="Nota 2" />
             </div>
             <div class="form-group col pt-3">
                 <label for="nota3">Cena 3 - Coringa passa longe de ser um filme engraçado. Há apenas um momento de um
@@ -76,7 +76,7 @@
                     acaba matando um deles, sobrando assim apenas o amigo anão, interpretado por Leigh Gill, que devido
                     a sua estatura não conseguia abrir a porta para poder fugir. A cena gera risadas por parte do
                     público do cinema, porém não muda o fato de que é um momento desesperador e tenso.</label>
-                <input type="text" required class="form-control" name="nota3" id="nota3" placeholder="Nota 3" />
+                <input type="number" required class="form-control" name="nota3" id="nota3" placeholder="Nota 3" />
             </div>
             <div class="form-group col pt-3">
                 <label for="nota4">Cena 4 - Durante um momento de discussão com a figura materna em busca de respostas
@@ -85,7 +85,7 @@
                     pediu calma a ele para assim poderem conversar de modo sereno. Rapidamente, em seguida, Arthur mudou
                     todo o seu status mensal nervoso e se demonstrou extremamente tranquilo. “Estou calmo”, ele diz.
                     Brilhante e uma ótima cena.</label>
-                <input type="text" required class="form-control" name="nota4" id="nota4" placeholder="Nota 4" />
+                <input type="number" required class="form-control" name="nota4" id="nota4" placeholder="Nota 4" />
             </div>
             <div class="form-group col pt-3">
                 <label for="nota5">Cena 5 - O personagem de Robert De Niro é uma figura importante de referência para
@@ -96,7 +96,7 @@
                     O clímax da conversa é concretizado quando Coringa atira em Murray, matando-o brutalmente para um
                     grande público que assistia pela televisão. Não só esse como todos os assassinatos da referida obra
                     cinematográfica são secas, geram uma grande sensação de realidade. Um grande impacto.</label>
-                <input type="text" required class="form-control" name="nota5" id="nota5" placeholder="Nota 5" />
+                <input type="number" required class="form-control" name="nota5" id="nota5" placeholder="Nota 5" />
             </div>
             <div class="form-group col pt-3">
                 <label for="nota6">Cena 6 - Arthur ensaiou sua dança por diversos momentos durante sua história
@@ -106,11 +106,11 @@
                     colocar em prática seus passos. O paralelo da cena das escadas no início do filme, com o personagem
                     a subindo lentamente e desanimado, quando comparado com o trecho final dele já como Coringa dançando
                     e cheio de si é marcante.</label>
-                <input type="text" required class="form-control" name="nota6" id="nota6" placeholder="Nota 6" />
+                <input type="number" required class="form-control" name="nota6" id="nota6" placeholder="Nota 6" />
             </div>
             </div>
             <div class="form-group col">
-                <input type="submit" value="Descobrir">
+                <input type="button" onclick="Verificar()" value="Descobrir">
             </div>
             <div class="form-group col-5">
                 <p id="result"></p>
