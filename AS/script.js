@@ -12,7 +12,7 @@ function Verificar() {
         resultado = "De acordo com as notas que você deu para cada cena a média é " + media;
     }
     else {
-        resultado = "Ocorreu algum erro."
+        resultado = "Ocorreu algum erro. Confira novamente todas as notas e veja se todas foram digitadas corretamente."
     }
 
     document.getElementById("result").innerHTML = resultado;
