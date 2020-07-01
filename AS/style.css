@@ -47,11 +47,6 @@ body{
     background-color: #df0932;
 }
 
-#result {
-    font-weight: bold;
-    color: #d46401
-}
-
 @media (max-width: 720px){
     .imagem-carrossel {
         background-position: center;
